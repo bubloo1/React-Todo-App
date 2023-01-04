@@ -1,0 +1,21 @@
+
+.container-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5px;
+  background-color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.clear-completed{
+    cursor: pointer;
+}

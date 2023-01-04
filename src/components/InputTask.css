@@ -1,0 +1,74 @@
+
+.input-task{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.top>h1{
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 2.4rem;
+}
+
+.input-img{
+    background-image: url('../assets/images/icon-moon.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.bottom{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.bottom-checkbox{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-input{
+    width: 90%;
+    border: none;
+}
+
+.task-input::placeholder{
+    font-size: 27px;
+    color: rgb(201, 201, 201);
+}
+
+@media screen and (max-width: 760px) {
+    .input-task{
+        width: 60%;
+    }
+}

@@ -1,0 +1,51 @@
+
+
+.display-task{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+.container-task{
+    width: 100%;
+    background: white;
+    height: 60px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+
+.check-box{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check{
+    height: 24px;
+    width: 24px;
+}
+
+.task{
+    width: 90%;
+    font-size: 24px;
+}
+
+.clear-completed{
+    background: none;
+    border: none;
+}
+
+@media screen and (max-width: 760px) {
+    .display-task{
+        width: 60%;
+    }
+}
